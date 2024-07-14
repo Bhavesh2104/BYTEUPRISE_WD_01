@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fc; /* Light pastel gray */
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+.header {
+  text-align: center;
+  padding: 30px 0;
+  background-color: #e0f2fe; /* Light pastel blue */
+}
+
+.header h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.header p {
+  font-size: 1.2em;
+  line-height: 1.5; /* Adjust line spacing for better readability */
+  color: #666;
+}
+
+/* Navigation Styles */
+.navbar {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-nav a {
+  color: #333;
+  margin-right: 20px;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav a:hover {
+  background-color: #e0f2fe; /* Light pastel blue */
+}
+
+.navbar-nav a.active {
+  font-weight: bold;
+}
+
+/* Main Content Styles */
+main {
+  padding-top: 30px;
+}
+
+section {
+  margin-bottom: 50px;
+  background-color: #f5f5f5; /* Light gray background for sections */
+  padding: 20px;
+  border-radius: 4px; /* Add subtle rounded corners for sections */
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #666;
+}
+
+.list-group-item {
+  border-color: #ddd;
+  border-radius: 4px; /* Add subtle rounded corners */
+}
+
+/* Footer Styles */
+.footer {
+  text-align: center;
+  padding: 15px 0;
+  background-color: #e0f2fe; /* Light pastel blue */
+  color: #333;
+}
